@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pscreations.myfirstapp.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/Toystory2"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/ToInfinty_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Infinity"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#733213"
+        android:textStyle="bold"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:id="@+id/beyond_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AND Beyond"
+        android:paddingLeft="40dp"
+        android:layout_below="@id/ToInfinty_text"
+        android:fontFamily="sans-serif"
+        android:textColor="#733213"
+        android:textStyle="bold"
+        android:textSize="50sp"/>
+
+
+</RelativeLayout>
